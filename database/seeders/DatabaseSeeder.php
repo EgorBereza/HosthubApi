@@ -35,14 +35,14 @@ class DatabaseSeeder extends Seeder
 
 
         DB::table('bookings')->insert([
-             ['parent_rental' => 1, 'rental' => 1, 'check_in_date' => '2024-06-20', 'check_out_date' => '2024-06-25'],
-             ['parent_rental' => 2, 'rental' => 2, 'check_in_date' => '2024-06-19', 'check_out_date' => '2024-06-27'],
+             ['parent_rental' => 1, 'rental' => 1, 'check_in_date' => '2024-06-22', 'check_out_date' => '2024-06-25'],
+             ['parent_rental' => 2, 'rental' => 2, 'check_in_date' => '2024-06-24', 'check_out_date' => '2024-06-27'],
 
              ['parent_rental' => 3, 'rental' => 9, 'check_in_date' => '2024-07-01', 'check_out_date' => '2024-07-10'],
              ['parent_rental' => 4, 'rental' => 10, 'check_in_date' => '2024-07-05', 'check_out_date' => '2024-07-08'],
 
-             ['parent_rental' => 5, 'rental' => 11, 'check_in_date' => '2024-07-01', 'check_out_date' => '2024-07-10'],
-             ['parent_rental' => 6, 'rental' => 12, 'check_in_date' => '2024-07-05', 'check_out_date' => '2024-07-08'],
+             ['parent_rental' => 5, 'rental' => 11, 'check_in_date' => '2024-07-10', 'check_out_date' => '2024-07-15'],
+             ['parent_rental' => 6, 'rental' => 12, 'check_in_date' => '2024-07-12', 'check_out_date' => '2024-07-17'],
         ]);
 
     }

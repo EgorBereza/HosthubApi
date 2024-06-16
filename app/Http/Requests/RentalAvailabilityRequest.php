@@ -25,8 +25,8 @@ class RentalAvailabilityRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'check_in_date' => 'required|date|date_format:Y-m-d',
-            'check_out_date' => 'required|date|after:check_in_date|date_format:Y-m-d',
+            'check_in_date' => 'required|date|date_format:Y-m-d|after_or_equal:today',
+            'check_out_date' => 'required|date|after:check_in_date|date_format:Y-m-d|after_or_equal:today',
         ];
     }
 
