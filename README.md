@@ -43,7 +43,7 @@ So in our case, the bookings are assigned to standalone_rentals (rental is the s
 - `git clone https://github.com/EgorBereza/HosthubApi.git`
 - `composer install`
 - `php artisan migrate --seed`
-- `php artisan serve` 
+- `php artisan serve` (Not needed if Laravel Herd is used )
 
 # Run Tests
 - `php artisan test`
