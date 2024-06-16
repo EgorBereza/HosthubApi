@@ -54,7 +54,7 @@ So in our case, the bookings are assigned to standalone_rentals (rental is the s
 
 # Notes
 
-1) The api was developed and tested by using Laravel Herd + Local Mysql Server (https://herd.laravel.com)
+1) Api was developed and tested by using Laravel Herd + Local Mysql Server (https://herd.laravel.com)
 
 2) Api will be accessible at http://your-domain/api/booking/availability
 
