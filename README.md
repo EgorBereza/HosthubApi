@@ -56,5 +56,7 @@ So in our case, the bookings are assigned to standalone_rentals (rental is the s
 
 1) The api was developed and tested by using Laravel Herd + Local Mysql Server (https://herd.laravel.com)
 
-2) Swagger will be accessible at http://your-domain/api/documentation after the generation
+2) Api will be accessible at http://your-domain/api/booking/availability
+
+3) Swagger will be accessible at http://your-domain/api/documentation after the generation
 
